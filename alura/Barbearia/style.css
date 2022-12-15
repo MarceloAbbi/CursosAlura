@@ -54,10 +54,15 @@ nav a:hover {
 
 .produtos li:hover {
     border-color: #C78C19;
+    font-size: 40px;
 }
 
 .produtos li:active {
     border-color: #088C19;
+}
+
+.produtos li:hover h2 {
+    font-size: 32px
 }
 
 .produtos h2 {
@@ -72,5 +77,39 @@ nav a:hover {
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background-image: url(staticfiles/bg.jpg);
+    padding: 40px 0;
+}
+
+.copyright {
+    font-size: 13px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form p {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input, form textarea {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
 }
 
