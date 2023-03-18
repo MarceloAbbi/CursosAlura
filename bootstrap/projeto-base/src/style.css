@@ -1,0 +1,11 @@
+.imagem-carrossel-um {
+    object-fit: cover;
+    object-position: 0 60%;
+    height: 400px;
+}
+
+.imagem-carrossel-dois {
+    object-fit: cover;
+    /* object-position: 0 50%; */
+    height: 400px;
+}
